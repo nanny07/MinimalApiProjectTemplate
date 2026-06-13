@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "nanny07",
+  "generatorVersions": "[1.0.0.0-*)",
+  "guids": [
+    "18506879-3f18-427c-9e4a-75fd9b99c7f3"
+  ],
+  "classifications": [
+	"Web",
+    "Web API",
+    "API",
+    "Service"
+  ],
+  "identity": "MinimalApiProjectTemplate",
+  "name": "MinimalApi Project Template",
+  "shortName": "MinimalApiProjectTemplate",
+  "sourceName":"MinimalApiProjectTemplate",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "UseSwaggerUI": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true",
+      "displayName": "Use SwaggerUI",
+      "description": "Add SwaggerUI nuget package and to the application builder"
+    },
+	"WithWeatherForecast": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false",
+      "displayName": "Create WeatherForecast",
+      "description": "Creates class and map endpoint for WeatherForecast"
+    }
+  }
+}
