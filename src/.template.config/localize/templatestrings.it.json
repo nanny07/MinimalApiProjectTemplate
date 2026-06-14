@@ -1,0 +1,6 @@
+{
+  "symbols/UseSwaggerUI/displayName": "Usa SwaggerUI",
+  "symbols/UseSwaggerUI/description": "Aggiunge i pacchetti nuget per SwaggerUI e lo aggiunge all'application builder",
+  "symbols/WithWeatherForecast/displayName": "Crea WeatherForecast",
+  "symbols/WithWeatherForecast/description": "Crea la classe WeatherForecast e ne mappa l'endpoint",
+}
