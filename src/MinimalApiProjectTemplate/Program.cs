@@ -5,11 +5,13 @@ builder.Services.AddOpenApi();
 var app = builder.Build();
 
 app.MapOpenApi();
+#if UseSwaggerUI
 
 app.UseSwaggerUI(options =>
 {
 	options.SwaggerEndpoint("/openapi/v1.json", app.Environment.ApplicationName);
 });
+#endif
 
 app.UseHttpsRedirection();
 #if WithWeatherForecast
